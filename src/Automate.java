@@ -16,6 +16,8 @@ public abstract class Automate {
             return false;
 
     }
+    protected abstract boolean containsElem(List<String> endStates, List<String> currentStates);
+
     protected abstract boolean execute(char input);
 
     protected abstract List<String> getCurrentState();

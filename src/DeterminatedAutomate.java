@@ -16,7 +16,6 @@ public class DeterminatedAutomate extends Automate {
         super.beginState = beginStates;
         this.transaction = transaction;
         this.currentState = beginState;
-
         this.beginState = beginState;
     }
 
@@ -42,10 +41,17 @@ public class DeterminatedAutomate extends Automate {
 
 
     @Override
+    protected boolean containsElem(List<String> endStates, List<String> currentStates) {
+           if(endStates.contains(currentState))      {
+               return true;
+           }
+           else
+               return false;
+    }
+
+    @Override
     public boolean execute(char input) {
-       //  System.out.println("Symbol: " + input);
         if(super.signs.contains(Character.toString(input))){
-         //   System.out.println("State: " + currentState);
             if(super.states.contains(currentState)) {
                 currentState = searchItemInTransaction(input + "", currentState);
                 if(endStates.contains(currentState)){

@@ -16,7 +16,8 @@ public class NotDeterminatedAutomate extends Automate {
     }
 
     //Проверяет, хотя бы одно состояние есть в списке вых. состояний
-    private boolean containsElem(List<String> endStates, List<String> currentStates){
+    @Override
+    protected boolean containsElem(List<String> endStates, List<String> currentStates){
         for(String str : currentStates){
             if(endStates.contains(str))
                 return true;

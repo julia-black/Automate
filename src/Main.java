@@ -15,20 +15,22 @@ public class Main {
     private static Pair f(Automate automate, List<Character> chars, int index){
         boolean result = false;
         int count = 0;
-        String state;
-        String newState = null;
+        List<String> states;
+        List<String> newStates = null;
         for (int i = index; i < chars.size(); i++) {
             if(automate.signs.contains(chars.get(i).toString())){ //если содержит такой вх. сигнал
                 automate.execute(chars.get(i));
-                newState = automate.getCurrentState().get(0);
+                newStates = automate.getCurrentState();
+
             }
-            if(newState != null){
-                state = newState;
-                newState = null;
-               if(automate.getEndState().contains(state)){
-                   count = i - index+1;
-                   result = true;
-               }
+            if(newStates != null){
+                states = newStates;
+                newStates = null;
+
+                if(automate.containsElem(automate.getEndState(), states)){
+                    count = i - index + 1;
+                    result = true;
+                }
             }
             else
                 break;
@@ -66,7 +68,6 @@ public class Main {
         System.out.println();
         return chars;
     }
-
 
     public static void readInputAutomate() throws IOException {
 
@@ -131,6 +132,7 @@ public class Main {
         }
 
     }
+
     public static void main(String[] args) throws IOException {
 
         List<Character> chars = readInputString();
@@ -157,6 +159,7 @@ public class Main {
                 index++;
             }
         }
+
         if(results != ""){
            System.out.println(results);
         }
