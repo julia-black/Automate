@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56548320-a17e-472b-a2b1-d349d841efbc" name="Default" comment="Fixed bugs, changed input automate">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/Automate.class" afterPath="$PROJECT_DIR$/out/production/Automates/Automate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/DeterminatedAutomate.class" afterPath="$PROJECT_DIR$/out/production/Automates/DeterminatedAutomate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_automate_ID.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/Main.class" afterPath="$PROJECT_DIR$/out/production/Automates/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/NotDeterminatedAutomate.class" afterPath="$PROJECT_DIR$/out/production/Automates/NotDeterminatedAutomate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Automate.java" afterPath="$PROJECT_DIR$/src/Automate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeterminatedAutomate.java" afterPath="$PROJECT_DIR$/src/DeterminatedAutomate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" afterPath="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input_automate_task2.txt" afterPath="$PROJECT_DIR$/input_automate_task2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -35,16 +30,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31543624">
+              <caret line="251" column="53" selection-start-line="251" selection-start-column="53" selection-end-line="251" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readInputString#0;class#Main#0" expanded="false" />
                 <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+                <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_automate_ID.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_automate_ID.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -76,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Automate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Automate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Automate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35714287">
-              <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -165,10 +171,11 @@
         <option value="$PROJECT_DIR$/input_automate_task2" />
         <option value="$PROJECT_DIR$/src/Automate.java" />
         <option value="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/input_automate_task2.txt" />
         <option value="$PROJECT_DIR$/src/DeterminatedAutomate.java" />
+        <option value="$PROJECT_DIR$/input_automate_ID" />
+        <option value="$PROJECT_DIR$/input_automate_task2.txt" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -182,9 +189,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="x" value="29" />
+    <option name="y" value="12" />
+    <option name="width" value="1545" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -210,9 +217,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +253,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,7 +441,7 @@
     <option name="totallyTimeSpent" value="22971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="29" y="12" width="1545" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -445,10 +452,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3167116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3815104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.211875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22171354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -492,11 +499,96 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readInputString#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_automate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Automate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NotDeterminatedAutomate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DeterminatedAutomate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tetro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
             <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,6 +664,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
             <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,6 +740,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
             <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,6 +823,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
             <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,10 +891,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/theory_formal_languages/theory_formal_languages/src/com/theory_formal_languages_1_3/java/Controler.java">
+    <entry file="file://$PROJECT_DIR$/input_automate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="99" selection-end-column="5" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NotDeterminatedAutomate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -815,49 +928,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_automate.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
+    <entry file="file://$PROJECT_DIR$/input_automate_ID.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NotDeterminatedAutomate.java">
+    <entry file="file://$PROJECT_DIR$/src/Automate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-          </folding>
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,11 +962,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Automate.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287">
-          <caret line="18" column="96" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-          <folding />
+        <state vertical-scroll-proportion="0.31543624">
+          <caret line="251" column="53" selection-start-line="251" selection-start-column="53" selection-end-line="251" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readInputString#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
+            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -937,6 +1033,17 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
