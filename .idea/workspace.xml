@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56548320-a17e-472b-a2b1-d349d841efbc" name="Default" comment="Fixed bugs, changed input automate">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_automate_ID.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_automate_IN.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input_priority.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/Automate.class" afterPath="$PROJECT_DIR$/out/production/Automates/Automate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/DeterminatedAutomate.class" afterPath="$PROJECT_DIR$/out/production/Automates/DeterminatedAutomate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/Main.class" afterPath="$PROJECT_DIR$/out/production/Automates/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Automates/NotDeterminatedAutomate.class" afterPath="$PROJECT_DIR$/out/production/Automates/NotDeterminatedAutomate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Automate.java" afterPath="$PROJECT_DIR$/src/Automate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeterminatedAutomate.java" afterPath="$PROJECT_DIR$/src/DeterminatedAutomate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" afterPath="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input_automate.txt" afterPath="$PROJECT_DIR$/input_automate.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input_automate_task2.txt" afterPath="$PROJECT_DIR$/input_automate_task2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,24 +42,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31543624">
-              <caret line="251" column="53" selection-start-line="251" selection-start-column="53" selection-end-line="251" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.53038675">
+              <caret line="377" column="77" selection-start-line="377" selection-start-column="77" selection-end-line="377" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-                <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-                <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+                <element signature="e#8959#9023#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_automate_ID.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_automate_ID.txt">
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Token.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding />
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,30 +76,27 @@
         <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pair.java">
+      <file leaf-file-name="input_priority.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_priority.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
+      <file leaf-file-name="input_automate_IN.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_automate_IN.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -92,8 +106,31 @@
         <entry file="file://$PROJECT_DIR$/input_automate.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_automate_ID.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input_automate_ID.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,41 +139,30 @@
         <entry file="file://$PROJECT_DIR$/src/Automate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotDeterminatedAutomate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NotDeterminatedAutomate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1575#1576#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeterminatedAutomate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeterminatedAutomate.java">
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tetro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tetro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -167,13 +193,18 @@
         <option value="$PROJECT_DIR$/src/TetroNotDeterminate.java" />
         <option value="$PROJECT_DIR$/src/Tetro.java" />
         <option value="$PROJECT_DIR$/input_automate" />
-        <option value="$PROJECT_DIR$/input_automate.txt" />
         <option value="$PROJECT_DIR$/input_automate_task2" />
-        <option value="$PROJECT_DIR$/src/Automate.java" />
+        <option value="$PROJECT_DIR$/input_automate_ID" />
+        <option value="$PROJECT_DIR$/input_automate_IN" />
+        <option value="$PROJECT_DIR$/input_automate_task2.txt" />
+        <option value="$PROJECT_DIR$/input_automate.txt" />
+        <option value="$PROJECT_DIR$/input_automate_ID.txt" />
+        <option value="$PROJECT_DIR$/input_priority" />
         <option value="$PROJECT_DIR$/src/NotDeterminatedAutomate.java" />
         <option value="$PROJECT_DIR$/src/DeterminatedAutomate.java" />
-        <option value="$PROJECT_DIR$/input_automate_ID" />
-        <option value="$PROJECT_DIR$/input_automate_task2.txt" />
+        <option value="$PROJECT_DIR$/input_automate_IN.txt" />
+        <option value="$PROJECT_DIR$/src/Automate.java" />
+        <option value="$PROJECT_DIR$/src/Token.java" />
         <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
@@ -189,10 +220,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="12" />
-    <option name="width" value="1545" />
-    <option name="height" value="876" />
+    <option name="x" value="62" />
+    <option name="y" value="25" />
+    <option name="width" value="1151" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -217,8 +248,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,7 +284,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,6 +299,11 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -441,21 +477,21 @@
     <option name="totallyTimeSpent" value="22971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="12" width="1545" height="876" extended-state="0" />
+    <frame x="62" y="25" width="1151" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3815104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41151685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22171354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29779735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -488,7 +524,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs, changed input automate" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -496,46 +534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input_automate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -548,7 +546,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,7 +560,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="false" />
+            <element signature="e#2935#2936#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,6 +576,12 @@
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,8 +601,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+            <element signature="e#8959#9023#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -624,7 +637,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +651,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="false" />
+            <element signature="e#2935#2936#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,6 +667,12 @@
           <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,8 +692,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+            <element signature="e#8959#9023#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,7 +728,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,7 +742,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="false" />
+            <element signature="e#2935#2936#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -720,6 +758,12 @@
           <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,8 +783,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+            <element signature="e#8959#9023#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -783,7 +826,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +840,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="false" />
+            <element signature="e#2935#2936#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,6 +856,12 @@
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,8 +881,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+            <element signature="e#8959#9023#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,7 +909,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -860,7 +923,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="false" />
+            <element signature="e#2935#2936#0" expanded="false" />
+            <element signature="e#2993#2994#0" expanded="false" />
+            <element signature="e#3024#3025#0" expanded="false" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,6 +939,12 @@
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -891,28 +965,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_automate.txt">
+    <entry file="file://$PROJECT_DIR$/src/DeterminatedAutomate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NotDeterminatedAutomate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
+    <entry file="file://$PROJECT_DIR$/Automates.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -920,7 +1003,7 @@
     <entry file="file://$PROJECT_DIR$/src/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
             <element signature="e#230#231#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
@@ -928,49 +1011,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/Automate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input_automate_ID.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Automate.java">
+    <entry file="file://$PROJECT_DIR$/input_automate_IN.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeterminatedAutomate.java">
+    <entry file="file://$PROJECT_DIR$/src/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_priority.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_automate_task2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input_automate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31543624">
-          <caret line="251" column="53" selection-start-line="251" selection-start-column="53" selection-end-line="251" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.53038675">
+          <caret line="377" column="77" selection-start-line="377" selection-start-column="77" selection-end-line="377" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#readInputString#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomate#0;class#Main#0" expanded="false" />
-            <element signature="method#readInputAutomateID#0;class#Main#0" expanded="false" />
+            <element signature="e#8959#9023#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -9,6 +9,10 @@ public class DeterminatedAutomate extends Automate {
     protected List<Tetro> transaction; //переходы состояний
 
 
+    public DeterminatedAutomate(){
+        super();
+    }
+
     public DeterminatedAutomate(List<String> states, List<String> signs, List<String> endStates, List<Tetro> transaction, String beginState) {
         super(states, signs, endStates);
         List<String> beginStates = new ArrayList<>();
@@ -38,6 +42,15 @@ public class DeterminatedAutomate extends Automate {
     public void setCurrentState(List<String> currentState) {
         this.currentState = currentState.get(0);
     }
+
+
+
+    @Override
+    public void setTransaction(List<Tetro> transaction) {
+        this.transaction = transaction;
+    }
+
+
 
 
     @Override
@@ -79,4 +92,5 @@ public class DeterminatedAutomate extends Automate {
         }
         return null;
     }
+
 }

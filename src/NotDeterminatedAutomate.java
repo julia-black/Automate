@@ -86,4 +86,11 @@ public class NotDeterminatedAutomate extends Automate {
     public void setCurrentState(List<String> currentState) {
         this.currentStates = currentState;
     }
+
+    @Override
+    public void setTransaction(List<Tetro> transaction) {
+
+    }
+
+
 }
